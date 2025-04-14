@@ -1,4 +1,4 @@
-import css from "./TransactionHistoryItem.module.css";
+import css from "./TransactionItem.module.css";
 
 export default function TransactionHistoryItem({ transaction }) {
   return transaction.map(({ id, type, amount, currency }) => {

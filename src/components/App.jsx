@@ -4,7 +4,7 @@ import Friends from "../friends.json";
 import Transaction from "../transactions.json";
 import "./App.css";
 import FriendList from "./friendList/FriendList";
-import TransactionHistory from "./transactionhistory/TransactionHistory";
+import TransactionHistory from "./transaction/TransactionHistory";
 
 export default function App() {
   return (
