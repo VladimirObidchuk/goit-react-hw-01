@@ -1,0 +1,19 @@
+.textTable {
+  text-transform: capitalize;
+  border-bottom-width: 1px;
+  border-bottom-color: #040404;
+  border-bottom-style: solid;
+}
+
+.textTable:not(:last-child) {
+  border-right-width: 1px;
+  border-right-color: #040404;
+  border-right-style: solid;
+}
+.textTable:first-child {
+  text-align: left;
+  padding-left: 10%;
+}
+.rowTable:nth-child(2n) {
+  background-color: #d3d3d3;
+}

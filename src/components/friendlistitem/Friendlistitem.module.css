@@ -1,0 +1,33 @@
+.item {
+  width: calc((100% - 100px) / 5);
+}
+.block {
+  border: 1px solid #808080;
+  padding: 10px;
+  border-radius: 10px;
+}
+.block:hover {
+  transform: scale(1.1);
+}
+.block:hover .img {
+  /* transform: scale(1.05); */
+}
+.img {
+  margin-bottom: 10px;
+}
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.status {
+  font-size: 20px;
+}
+.isOnline {
+  color: rgb(73 162 72);
+}
+.isOffline {
+  color: rgb(255 12 11);
+}
+/* rgb(73 162 72) */
+/* rgb(255 12 11) */
