@@ -13,7 +13,9 @@ export default function TransactionHistory({ transaction }) {
           </tr>
         </thead>
         <tbody>
-          <TransactionItem transaction={transaction} />
+          {transaction.map((trasactin) => {
+            return <TransactionItem key={trasactin.id} trasactin={trasactin} />;
+          })}
         </tbody>
       </table>
     </div>
